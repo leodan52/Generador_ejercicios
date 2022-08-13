@@ -1,0 +1,66 @@
+\documentclass{article}% realizar un doc sencillo
+	\usepackage[spanish, es-tabla]{babel}%Paquetes
+	\usepackage[utf8]{inputenc}%    para idioma español
+	\usepackage{latexsym}		%Paquetes
+	\usepackage{amsmath,times}	%		para
+	\usepackage{amssymb}		%			matematicas
+%	\usepackage{graphicx}%Graficos, imagenes
+%	\usepackage{listings}%Util para citar codigo
+%	\usepackage{physics}%Uso más comodo de matematicas para fisica
+	\usepackage{anysize}%Edita estructura del doc
+	\usepackage{multicol}%Varias columnas
+%	\usepackage{hyperref}%Hiperlinks, asocia referencias y citar urls
+%	\usepackage[labelfont=bf]{caption}
+%	\usepackage{tikz} % dibujar lineas y poligonos
+%	\usepackage{caption} % colocar caption forzado
+%	\usepackage{amsthm} % Entorno para Teorema, lema, corolario y demostracion
+
+	\marginsize{2.5cm}{2.5cm}{2.5cm}{2.5cm}%Margen {arriba}{abajo}{izq}{derecha}
+
+%	\renewcomand\qedsymbol{$\blacksquare$} % cuadrito negro para proof
+
+
+	\title{Ejercicios de aritmética}
+	\author{}
+	\date{}
+
+	\begin{document}
+		\maketitle
+
+		\section{Sumas y restas}
+
+		\begin{multicols}{4}
+			\begin{enumerate}
+				\input{./sumas.tex}
+			\end{enumerate}
+		\end{multicols}
+
+		\section{Productos}
+
+		\begin{multicols}{4}
+			\begin{enumerate}
+				\input{./producto.tex}
+			\end{enumerate}
+		\end{multicols}
+
+		\section{Divisiones}
+
+		\begin{multicols}{4}
+			\begin{enumerate}
+				\input{./div.tex}
+			\end{enumerate}
+		\end{multicols}
+
+		\newpage
+		\section{Potencia y raíz}
+
+		Resueve los siguientes ejercicios con las leyes de los exponentes:
+
+		\begin{multicols}{4}
+			\begin{enumerate}
+				\input{./potencia.tex}
+			\end{enumerate}
+		\end{multicols}
+
+
+	\end{document}
